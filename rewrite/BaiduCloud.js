@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/pan\.baidu\.com\/(act\/.+\/(activityentry|bchannel|cardwelfare|skin)|rest\/.+\/(membership\/user|pcs\/adv)|feed\/cardinfos|api\/(user\/getinfo|quota|loginstatus|account\/getprivilege)|buy\/ad\/conf|wap\/vip|coins\/taskcenter\/homensr) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js
+^https?:\/\/pan\.baidu\.com\/(act\/.+\/(activityentry|bchannel|cardwelfare|skin)|rest\/.+\/(membership\/user|pcs\/adv)|feed\/cardinfos|api\/(user\/getinfo|quota|loginstatus|account\/getprivilege)|buy\/ad\/conf|wap\/vip|coins\/taskcenter\/homensr) url script-response-body https://raw.githubusercontent.com/Wmaliva/Quantumult/refs/heads/main/rewrite/BaiduCloud.js
 
 [mitm]
 hostname = pan.baidu.com
